@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:id="@+id/main_tvName" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:id="@+id/main_tvAge" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+            android:layout_below="@+id/main_tvName" android:layout_alignLeft="@+id/main_tvName"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="real name"
+            android:id="@+id/main_tvRealName" android:layout_toRightOf="@+id/main_tvName"
+            android:layout_alignParentTop="true" android:layout_marginLeft="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="real age"
+            android:id="@+id/main_tvRealAge" android:layout_toRightOf="@+id/main_tvName"
+            android:layout_below="@+id/main_tvName" android:layout_alignLeft="@+id/main_tvRealName"/>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="read from html"
+            android:id="@+id/file_btReadFromHtml" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get text from editext"
+            android:id="@+id/file_btTextFromEdittext" android:layout_gravity="center"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                android:id="@+id/file_webView" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/file_etSave"
+                android:layout_centerHorizontal="true" android:layout_alignTop="@+id/file_webView"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:text="Save"
+                android:id="@+id/file_btSava" android:layout_centerHorizontal="true" android:layout_below="@+id/file_etSave"/>
+    </RelativeLayout>
+</LinearLayout>
