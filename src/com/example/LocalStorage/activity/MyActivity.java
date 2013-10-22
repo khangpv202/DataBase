@@ -1,10 +1,14 @@
-package com.example.LocalStorage;
+package com.example.LocalStorage.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
 import android.widget.ListView;
+import com.example.LocalStorage.util.CustomeListViewAdapter;
+import com.example.LocalStorage.util.DatabaseHandler;
+import com.example.LocalStorage.R;
+import com.example.LocalStorage.model.Student;
 
 import java.io.*;
 import java.util.List;
@@ -76,7 +80,7 @@ public class MyActivity extends Activity
             }
             in.close();
             out.close();
-            Log.e("============Okkk1111", "Files copied.");
+            Log.e("============Okkk1111", "FileActivity copied.");
         }
         catch (FileNotFoundException ex)
         {

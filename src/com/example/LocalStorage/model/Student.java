@@ -1,11 +1,11 @@
-package com.example.LocalStorage;
+package com.example.LocalStorage.model;
 
 /**
  * Created with IntelliJ IDEA.
  * User: khangpv
  * Date: 10/21/13
  * Time: 4:05 PM
- * To change this template use Files | Settings | Files Templates.
+ * To change this template use FileActivity | Settings | FileActivity Templates.
  */
 public class Student
 {

@@ -1,4 +1,4 @@
-package com.example.LocalStorage;
+package com.example.LocalStorage.activity;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -6,15 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import com.example.LocalStorage.R;
 
 /**
  * Created with IntelliJ IDEA.
  * User: khangpv
  * Date: 10/22/13
  * Time: 9:02 AM
- * To change this template use Files | Settings | Files Templates.
+ * To change this template use FileActivity | Settings | FileActivity Templates.
  */
-public class SharePrefer extends Activity
+public class SharePreferActivity extends Activity
 {
     private EditText etInput;
     private Button btOk;

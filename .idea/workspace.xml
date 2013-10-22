@@ -34,7 +34,7 @@
     <file path="/DatabaseHandler.java" changelist="be8d349b-e07b-43a5-b98f-89366dd48ece" time="1382347443148" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/example/LocalStorage/BuildConfig.java" changelist="be8d349b-e07b-43a5-b98f-89366dd48ece" time="1382411988071" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="be8d349b-e07b-43a5-b98f-89366dd48ece" time="1382411978696" ignored="false" />
-    <file path="/Dummy.txt" changelist="be8d349b-e07b-43a5-b98f-89366dd48ece" time="1382409044531" ignored="false" />
+    <file path="/Dummy.txt" changelist="be8d349b-e07b-43a5-b98f-89366dd48ece" time="1382414226854" ignored="false" />
     <file path="/Student.java" changelist="be8d349b-e07b-43a5-b98f-89366dd48ece" time="1382347918377" ignored="false" />
     <file path="$USER_HOME$/Desktop/android_example/AndroidSQLiteTutorial/src/com/androidhive/androidsqlite/DatabaseHandler.java" changelist="be8d349b-e07b-43a5-b98f-89366dd48ece" time="1382346593231" ignored="false" />
     <file path="/MyActivity.java" changelist="be8d349b-e07b-43a5-b98f-89366dd48ece" time="1382406829539" ignored="false" />
@@ -103,18 +103,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Files.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/Files.java">
+      <file leaf-file-name="FileActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/activity/FileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="64" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.2366621">
+            <state line="97" column="36" selection-start="3074" selection-end="3094" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2269#3052#0" expanded="true" />
-                <element signature="e#3045#3046#0" expanded="true" />
-                <element signature="e#3111#3370#0" expanded="true" />
-                <element signature="e#3363#3364#0" expanded="true" />
-                <element signature="e#3432#4575#0" expanded="true" />
-                <element signature="e#4568#4569#0" expanded="true" />
+                <element signature="e#2341#3124#0" expanded="true" />
+                <element signature="e#3117#3118#0" expanded="true" />
+                <element signature="e#3183#3442#0" expanded="true" />
+                <element signature="e#3435#3436#0" expanded="true" />
+                <element signature="e#3504#4647#0" expanded="true" />
+                <element signature="e#4640#4641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,19 +132,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="78" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+            <state line="15" column="44" selection-start="799" selection-end="799" vertical-scroll-proportion="0.3488372">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/MyActivity.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/activity/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="57" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.0">
+            <state line="81" column="51" selection-start="2850" selection-end="2850" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,6 +174,8 @@
         <option value="$PROJECT_DIR$/res/layout/file.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/LocalStorage/Files.java" />
+        <option value="$PROJECT_DIR$/src/com/example/LocalStorage/FileActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/LocalStorage/activity/MyActivity.java" />
       </list>
     </option>
   </component>
@@ -245,6 +247,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LocalStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocalStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocalStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocalStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocalStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocalStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocalStorage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,7 +481,7 @@
     </configuration>
     <configuration default="false" name="LocalStorage" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="LocalStorage" />
-      <option name="ACTIVITY_CLASS" value="com.example.LocalStorage.MyActivity" />
+      <option name="ACTIVITY_CLASS" value="com.example.LocalStorage.activity.MyActivity" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
@@ -495,7 +545,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33462033" sideWeight="0.48745045" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33462033" sideWeight="0.67107004" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754183" sideWeight="0.48745045" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -576,7 +626,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/activity/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="94" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
           <folding>
@@ -592,28 +642,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/DatabaseHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/util/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="63" selection-start="644" selection-end="658" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="59" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="28" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/DatabaseHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/util/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="63" selection-start="646" selection-end="660" vertical-scroll-proportion="0.0">
           <folding />
@@ -630,7 +680,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/CustomeListViewAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/util/CustomeListViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
           <folding>
@@ -659,13 +709,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/SharePrefer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/activity/SharePreferActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="43" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1130#1510#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1196#1576#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -687,9 +737,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/activity/FileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="57" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.0">
+        <state line="97" column="36" selection-start="3074" selection-end="3094" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2341#3124#0" expanded="true" />
+            <element signature="e#3117#3118#0" expanded="true" />
+            <element signature="e#3183#3442#0" expanded="true" />
+            <element signature="e#3435#3436#0" expanded="true" />
+            <element signature="e#3504#4647#0" expanded="true" />
+            <element signature="e#4640#4641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/activity/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="51" selection-start="2850" selection-end="2850" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -698,23 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+        <state line="15" column="44" selection-start="799" selection-end="799" vertical-scroll-proportion="0.3488372">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/LocalStorage/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="64" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.2366621">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2269#3052#0" expanded="true" />
-            <element signature="e#3045#3046#0" expanded="true" />
-            <element signature="e#3111#3370#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
-            <element signature="e#3432#4575#0" expanded="true" />
-            <element signature="e#4568#4569#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

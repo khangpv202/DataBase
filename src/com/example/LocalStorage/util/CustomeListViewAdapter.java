@@ -1,4 +1,4 @@
-package com.example.LocalStorage;
+package com.example.LocalStorage.util;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,8 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import com.example.LocalStorage.R;
+import com.example.LocalStorage.model.Student;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ import java.util.List;
  * User: khangpv
  * Date: 10/22/13
  * Time: 8:31 AM
- * To change this template use Files | Settings | Files Templates.
+ * To change this template use FileActivity | Settings | FileActivity Templates.
  */
 public class CustomeListViewAdapter extends BaseAdapter
 {

@@ -1,10 +1,11 @@
-package com.example.LocalStorage;
+package com.example.LocalStorage.util;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import com.example.LocalStorage.model.Student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +15,7 @@ import java.util.List;
  * User: khangpv
  * Date: 10/21/13
  * Time: 3:49 PM
- * To change this template use Files | Settings | Files Templates.
+ * To change this template use FileActivity | Settings | FileActivity Templates.
  */
 public class DatabaseHandler extends SQLiteOpenHelper
 {

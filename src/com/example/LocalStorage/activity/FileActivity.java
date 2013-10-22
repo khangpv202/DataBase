@@ -1,4 +1,4 @@
-package com.example.LocalStorage;
+package com.example.LocalStorage.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
+import com.example.LocalStorage.R;
 
 import java.io.*;
 
@@ -16,11 +17,11 @@ import java.io.*;
  * User: khangpv
  * Date: 10/22/13
  * Time: 9:29 AM
- * To change this template use Files | Settings | Files Templates.
+ * To change this template use FileActivity | Settings | FileActivity Templates.
  */
-public class Files extends Activity
+public class FileActivity extends Activity
 {
-    private final String TAG = "Files";
+    private final String TAG = "FileActivity";
 
     private Button btReadFromHtmlFile;
     private Button btSaveIntoSdcard;
