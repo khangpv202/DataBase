@@ -23,6 +23,10 @@ public class CustomeListViewAdapter extends BaseAdapter
     private List<Student> listData;
     private LayoutInflater layoutInflater;
 
+    public List<Student> getListData()
+    {
+        return listData;
+    }
 
     public CustomeListViewAdapter(Context context, List<Student> listItems)
     {
@@ -40,6 +44,15 @@ public class CustomeListViewAdapter extends BaseAdapter
     public Object getItem(int position)
     {
        return listData.get(position);
+    }
+    public void deleteStudent(int index){
+        System.out.println(listData.get(index));
+        listData.remove(index);
+    }
+
+    public void setListData(List<Student> listData)
+    {
+        this.listData = listData;
     }
 
     @Override
